@@ -1,0 +1,49 @@
+ body {
+     margin: 40px;
+ }
+
+
+ /*
+        le modèle colonne permet l'affichage sur 3 colonnes
+        chaque colonne mesure 100px.
+        cette dimension reste fixe
+        */
+ .conteneur {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 20px;
+     background-color: #fff;
+     color: #444;
+ }
+
+ .boite {
+     background-color: rgb(221, 127, 127);
+     color: rgb(255, 255, 255);
+     border-radius: 5px;
+     padding: 20px;
+     font-size: 150%;
+ }
+
+ /*
+définir l'étendue de chaque classe
+*/
+ .a {
+     grid-column: 1 / 3;
+     grid-row: 1;
+ }
+
+ .b {
+     grid-column: 3;
+     grid-row: 1 / 3;
+ }
+
+ .c {
+     grid-column: 1;
+     grid-row: 2;
+ }
+
+
+ .d {
+     grid-column: 2;
+     grid-row: 2;
+ }
