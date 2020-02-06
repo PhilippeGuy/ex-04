@@ -92,6 +92,14 @@ en précédent notre extension avec «%»
     display: none;
   }
 
+  //format de base pour l'affichage d'un cours
+  %cours{
+    border-radius: 15pt;
+    border: solid 3px black;
+    margin: 5px;
+    vertical-align: middle;
+  }
+
   //mettre les checkbox invisibles
   #checkMenu{
     @extend %invisible; 
