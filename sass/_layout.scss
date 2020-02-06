@@ -49,40 +49,46 @@ main{
     @extend %cours;
 }
 
+.etude{
+    background-color: $couleur_rouge;
+}
+
+.veille{
+    background-color: $couleur_jaune;
+}
+
+.video{
+    background-color: $couleur_bleu;
+}
+
+
 //placer les cour à l'aide du grid area
 div.lundi.etude{
     grid-area: 7 / 2 / 12/ 3;
-    background-color: greenyellow;
 }
 
 div.mardi.veille{
     grid-area: 8 / 3 / 12/ 4;
-    background-color: greenyellow;
 }
 
 div.mercredi.video{
     grid-area: 7 / 4 / 10/ 5;
-    background-color: greenyellow;
 }
 
 div.jeudi.etude{
     grid-area: 2 / 5 / 6/ 6;
-    background-color: greenyellow;
 }
 
 div.jeudi.veille{
     grid-area: 8 / 5 / 12/ 6;
-    background-color: greenyellow;
 }
 
 div.jeudi.veille{
     grid-area: 8 / 5 / 12/ 6;
-    background-color: greenyellow;
 }
 
 div.vendredi.video{
     grid-area: 7 / 6 / 10/ 7;
-    background-color: greenyellow;
 }
 
 // ---------------------------------------------------------------- un premier point de rupture 

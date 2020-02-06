@@ -294,7 +294,7 @@ en précédent notre extension avec «%»
   border-radius: 15pt;
   border: solid 3px black;
   margin: 5px;
-  vertical-align: middle;
+  color: white;
 }
 
 /* ------------------------------------------------------------
@@ -345,13 +345,24 @@ main {
   place-self: center;
 }
 
+.etude {
+  background-color: #ce4040;
+}
+
+.veille {
+  background-color: #e9ab01;
+}
+
+.video {
+  background-color: #3498db;
+}
+
 div.lundi.etude {
   -ms-grid-row: 7;
   -ms-grid-row-span: 5;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 7 / 2 / 12/ 3;
-  background-color: greenyellow;
 }
 
 div.mardi.veille {
@@ -360,7 +371,6 @@ div.mardi.veille {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-area: 8 / 3 / 12/ 4;
-  background-color: greenyellow;
 }
 
 div.mercredi.video {
@@ -369,7 +379,6 @@ div.mercredi.video {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 7 / 4 / 10/ 5;
-  background-color: greenyellow;
 }
 
 div.jeudi.etude {
@@ -378,7 +387,6 @@ div.jeudi.etude {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-area: 2 / 5 / 6/ 6;
-  background-color: greenyellow;
 }
 
 div.jeudi.veille {
@@ -387,7 +395,6 @@ div.jeudi.veille {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-area: 8 / 5 / 12/ 6;
-  background-color: greenyellow;
 }
 
 div.jeudi.veille {
@@ -396,7 +403,6 @@ div.jeudi.veille {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-area: 8 / 5 / 12/ 6;
-  background-color: greenyellow;
 }
 
 div.vendredi.video {
@@ -405,7 +411,6 @@ div.vendredi.video {
   -ms-grid-column: 6;
   -ms-grid-column-span: 1;
   grid-area: 7 / 6 / 10/ 7;
-  background-color: greenyellow;
 }
 
 /* ------------------------------------------------------------
@@ -413,7 +418,7 @@ div.vendredi.video {
 --------------------------------------------------------------*/
 #entete {
   background-color: #250e0e;
-  color: #b3afaf;
+  color: white;
   text-align: right;
   padding: 0 30px;
 }
