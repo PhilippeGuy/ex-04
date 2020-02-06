@@ -39,9 +39,20 @@ main{
     grid-column: 6;
 }
 
+//plus petite police pour mobile
+h3{
+    font-size: 12pt;
+}
+
+h2{
+    font-size: 14pt;
+}
+
 .heure{
     grid-column: 1;
     place-self: center;
+    margin-right: 20px;
+    font-weight: 600;
 }
 
 //style de base pour afficher les cours
@@ -49,6 +60,7 @@ main{
     @extend %cours;
 }
 
+// différentes couleurs de fond pour les cours
 .etude{
     background-color: $couleur_rouge;
 }
@@ -93,5 +105,12 @@ div.vendredi.video{
 
 // ---------------------------------------------------------------- un premier point de rupture 
 @media screen and (min-width:600px) {
+    h3{
+        font-size: 20pt;
+    }
 
+    
+h2{
+    font-size: 22pt;
+}
 }
